@@ -42,6 +42,7 @@ class Patients(models.Model):
                               index=True,
                               default=lambda self: 'New')
     notes = fields.Html('Note', sanitize_style=True)
+    image = fields.Binary(string='Image', help="Select an image file")
     patient_profession = fields.Char(string="Profession", help="Profession of patient")
     patient_age = fields.Integer(string="Age", compute='_compute_age')
     blood_grp = fields.Many2one('hospital.blood', string="Blood Group")

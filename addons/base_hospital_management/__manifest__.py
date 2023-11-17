@@ -20,7 +20,7 @@
 #
 #############################################################################
 {
-    'name': "Hospital Management",
+    'name': "Peter Plumb Harmony Medical Clinic",
     'description': """
         Hospital management module which is used to mange the hospital functionalities prescription,patient,doctor diagnosis etc
     """,
@@ -68,7 +68,7 @@
         'views/hospital_labs.xml',
         'wizard/room_assign.xml',
     ],
-    'images': ['static/description/banner.png'],
+    'images': ['./static/description/icon1.png'],
     'installable': True,
     'auto_install': False,
     'application': False,

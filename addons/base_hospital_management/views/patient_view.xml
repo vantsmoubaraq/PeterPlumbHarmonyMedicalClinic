@@ -6,8 +6,8 @@
         <field name="arch" type="xml">
             <form>
                 <sheet>
-                    <field name="image_128" widget="image" class="oe_avatar"
-                           options="{&quot;zoom&quot;: true, &quot;preview_image&quot;:&quot;image_128&quot;}"/>
+                    <field name="image" widget="image" class="oe_avatar"
+        		/>
                     <div class="oe_title">
                         <h1 class="d-flex">
                             <field name="patient_seq" placeholder="Patient No." required="True"/>

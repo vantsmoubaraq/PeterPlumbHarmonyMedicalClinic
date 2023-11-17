@@ -73,7 +73,7 @@
                 </p>
             </field>
     </record>
-     <menuitem name="Hospital Management"
+     <menuitem name="Peter Plumb Harmony Medical Clinic"
               id="hospital_root"
               sequence="9"/>
     <menuitem name="Infrastructure Management"
